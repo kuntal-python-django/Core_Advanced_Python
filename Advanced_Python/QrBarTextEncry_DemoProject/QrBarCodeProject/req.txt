@@ -1,0 +1,9 @@
+altgraph==0.17
+numpy==1.18.1
+Pillow==7.0.0
+PyInstaller==3.6
+python-barcode==0.10.0
+pyzbar==0.1.8
+qrcode==6.1
+six==1.14.0
+treepoem==3.3.1
