@@ -44,7 +44,6 @@ def uppercase_decorator(function):
     def wrapper():
         make_uppercase = function().upper()
         return make_uppercase
-
     return wrapper
 
 
@@ -53,7 +52,6 @@ def split_string(function):
     def wrapper():
         splitted_string = function().split()
         return splitted_string
-
     return wrapper
 
 
@@ -66,8 +64,9 @@ def split_string(function):
 
 
 ''' Calling Decorators '''
-@split_string
+@uppercase_decorator
 def say_hi():
     return 'hello there'
 
 print(say_hi())
+
